@@ -41,10 +41,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    # Додаю власні застосунки нижче. Поки вони закоментовані,
-    # бо з'являться в наступних завданнях.
-    # 'shop',
-    # 'goods',
+    # Підключаю власний застосунок магазину.
+    'shop',
+    # 'goods' додам пізніше, під час виконання пункту 16.
 ]
 
 MIDDLEWARE = [
