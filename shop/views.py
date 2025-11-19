@@ -1,3 +1,9 @@
-from django.shortcuts import render
+from django.http import HttpResponse
 
-# У наступному кроці додам тут функцію index, яка повертатиме HttpResponse.
+
+def index(request):
+    """
+    Найпростіший обробник: отримує HTTP-запит і повертає текстову відповідь.
+    Тут ще немає шаблонів чи БД — просто демонструю, що застосунок живий.
+    """
+    return HttpResponse("Вітаю в магазині! Це тестове повідомлення.")
