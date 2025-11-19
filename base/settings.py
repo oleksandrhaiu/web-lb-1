@@ -25,8 +25,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-yt4)4v$m+m&c6-pb1_y@nu0h2#85@wq1y38*b%kj-@b^l$*e*3'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-# Тимчасово вимикаю DEBUG, щоб перевірити поведінку production-режиму.
-DEBUG = False
+# Повертаю DEBUG у True, щоб знову бачити подробиці під час розробки.
+DEBUG = True
 
 # Для лабораторної роботи дозволяю лише локальні адреси.
 ALLOWED_HOSTS = ["127.0.0.1", "localhost"]
